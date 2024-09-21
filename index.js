@@ -1,5 +1,6 @@
-document.getElementById("meuBotao").addEventListener("click", function() {
+document.getElementById('meuBotao').addEventListener('click', function (event) {
+    event.preventDefault();
 
-    window.open("file:///C:/Users/fabit/OneDrive/%C3%81rea%20de%20Trabalho/Hamburgueria/index.html", "_self");
+    window.location.href = 'https://joaovitortupan.github.io/hamburgueria/';
 
 });
