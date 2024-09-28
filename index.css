@@ -1,13 +1,12 @@
 body{
-
+    background-color: black;
     width: 100vw;
     height: 140vw;
     background-image: url("fundo.jpeg");
-    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-size: cover;
-    
+    background-size: 100%;    
 }
 
 .botao3 {
